@@ -1,0 +1,16 @@
+.task-page{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+#user-id-task-page{
+    margin-bottom: 5vh;
+    font-size: 0.9em;
+}
+
+#h2-task-page{
+    margin-bottom: 0;
+}

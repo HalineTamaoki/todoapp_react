@@ -1,0 +1,34 @@
+.header{
+    background-color: #b73877;
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1{
+    padding: 1vh 0 1vh 5vh;
+    font-size: 1.8em;
+}
+
+.header img{
+    cursor: pointer;
+    padding-right: 5vh;
+}
+
+.header p{
+    font-size: 1.12em;
+}
+
+#false-element{
+    margin-right: 10vh;
+}
+
+#false-element::after{
+    width: 32px;
+    height: 32px;
+    content: '';
+    background-color: #b73877;
+    position: absolute;
+}

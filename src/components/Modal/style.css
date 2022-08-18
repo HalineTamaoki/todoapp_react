@@ -1,0 +1,20 @@
+#modal-wrapper{
+    position: fixed;
+    background-color: #ffe7f4;
+    border: 1px solid #666;
+    top:50%;
+    width: 50%;
+    left: 25%;
+    padding: 2vh;
+    border-radius: 0.5vh;
+}
+
+#modal-close{
+    color: #b73877;
+    float: right;
+    font-size: 2em;
+    cursor: pointer;
+}
+#modal-close:hover{
+    color: #ff69b4;
+}

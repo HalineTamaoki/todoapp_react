@@ -1,0 +1,25 @@
+#delete-task-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#delete-task-wrapper p{
+    margin-top: -1vh;
+    margin-bottom: 5vh;
+}
+
+#delete-task-wrapper button{
+    font-size: 1em;
+    border: solid 1px #666;
+    border-radius: 0.5vh;
+    background-color: white;
+    margin: 0 2vh;
+    padding: 1vh 5vh;
+    cursor: pointer;
+}
+
+#delete-task-wrapper button:hover{
+    background-color: #ff69b4;
+}
